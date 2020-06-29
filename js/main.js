@@ -248,7 +248,7 @@ jQuery(document).ready(function ($) {
 
   //Articles carousel (uses the Owl Carousel library)
   $(".article_carousel").owlCarousel({
-    autoplay: false,
+    autoplay: true,
     autoplayHoverPause: true,
     loop: true,
     dots: false,
