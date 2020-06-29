@@ -163,7 +163,7 @@ jQuery(document).ready(function ($) {
 
   // Logos carousel (uses the Owl Carousel library)
   $(".logo_carousel").owlCarousel({
-    autoplay: true,
+    autoplay: false,
     autoplayHoverPause: true,
     loop: true,
     dots: false,
@@ -190,7 +190,7 @@ jQuery(document).ready(function ($) {
 
   //Testimonials carousel (uses the Owl Carousel library)
   $(".testimonial_carousel").owlCarousel({
-    autoplay: true,
+    autoplay: false,
     autoplayHoverPause: true,
     loop: true,
     dots: false,
@@ -213,7 +213,7 @@ jQuery(document).ready(function ($) {
 
   //Gallery carousel (uses the Owl Carousel library)
   $(".gallery_carousel").owlCarousel({
-    autoplay: true,
+    autoplay: false,
     autoplayHoverPause: true,
     loop: true,
     dots: false,
@@ -245,7 +245,7 @@ jQuery(document).ready(function ($) {
 
   //Articles carousel (uses the Owl Carousel library)
   $(".article_carousel").owlCarousel({
-    autoplay: true,
+    autoplay: false,
     autoplayHoverPause: true,
     loop: true,
     dots: false,

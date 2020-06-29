@@ -838,10 +838,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 20px; 
 }
 
-.event .details_box img, .fee .details_box img {
-  max-height: 45px;
-}
-
 .event .details_box .small {
   font-size: 12px;
 }
@@ -897,7 +893,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #about h5 img {
   margin-left: 5px;
-  max-height: 50px;
 }
 
 #about .description {
@@ -908,13 +903,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   position: relative;
 }
 
-#about .about_thumb img {
-  max-height: 350px;
-}
-
 @media only screen and (min-width: 601px) {
   #about h5 img {
-    margin-left: 20px;
+    margin-left: 10px;
   }
 }
 
@@ -977,7 +968,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #sports .sports_list ul li img {
-  max-height: 80px;
   margin-bottom: 15px;
 }
 
@@ -1552,10 +1542,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .footer .footer_logo {
   margin-bottom: 50px;
-}
-
-.footer .footer_logo img {
-  max-height: 80px;
 }
 
 .footer .footer_top h5 {
