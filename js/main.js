@@ -170,8 +170,8 @@ jQuery(document).ready(function ($) {
     lazyLoad: true,
     responsiveClass: true,
     slideTransition: 'linear',
-    autoplayTimeout: 1000,
-    autoplaySpeed: 1000,
+    autoplayTimeout: 2000,
+    autoplaySpeed: 2000,
     responsive: {
       0: {
         items: 1
@@ -196,8 +196,8 @@ jQuery(document).ready(function ($) {
     dots: false,
     responsiveClass: true,
     slideTransition: 'linear',
-    autoplayTimeout: 2000,
-    autoplaySpeed: 2000,
+    autoplayTimeout: 3000,
+    autoplaySpeed: 3000,
     responsive: {
       0: {
         items: 1
@@ -213,7 +213,7 @@ jQuery(document).ready(function ($) {
 
   //Gallery carousel (uses the Owl Carousel library)
   $(".gallery_carousel").owlCarousel({
-    autoplay: false,
+    autoplay: true,
     autoplayHoverPause: true,
     loop: true,
     dots: false,
@@ -233,6 +233,9 @@ jQuery(document).ready(function ($) {
       },
       1200:  {
         items: 4
+      },
+      1600:  {
+        items: 5
       }
     }
   });

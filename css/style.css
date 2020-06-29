@@ -1152,7 +1152,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   overflow: hidden;
   position: relative;
   display: block;
-  margin: 0px;
+  margin: 0px auto;
   width: 250px;
 }
 
@@ -1201,8 +1201,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   transition: transform 0.2s ease 0s;
   -webkit-transform: scale3d(1, 1, 1);
   transform: scale3d(1, 1, 1);
-  height: 200px;
-  width: 250px;
+  height: 180px;
 }
 
 #prev_ed .gallery_thumb:hover img {
