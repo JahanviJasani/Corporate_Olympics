@@ -1087,9 +1087,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #prev_ed .logo_carousel .logo_item img {
-  max-height: 90px;
   width: auto;
-  max-width: 80%;
 }
 
 #prev_ed .testimonial_carousel .testimonial_item {
@@ -1268,10 +1266,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 @media only screen and (min-width: 1024px) {
   #prev_ed .logo_carousel .logo_item {
     height: 140px;
-  }
-
-  #prev_ed .logo_carousel .logo_item img {
-    max-height: 100px;
   }
 }
 

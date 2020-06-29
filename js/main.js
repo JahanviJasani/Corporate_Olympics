@@ -163,7 +163,7 @@ jQuery(document).ready(function ($) {
 
   // Logos carousel (uses the Owl Carousel library)
   $(".logo_carousel").owlCarousel({
-    autoplay: false,
+    autoplay: true,
     autoplayHoverPause: true,
     loop: true,
     dots: false,
@@ -190,7 +190,7 @@ jQuery(document).ready(function ($) {
 
   //Testimonials carousel (uses the Owl Carousel library)
   $(".testimonial_carousel").owlCarousel({
-    autoplay: false,
+    autoplay: true,
     autoplayHoverPause: true,
     loop: true,
     dots: false,
