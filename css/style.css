@@ -1,4 +1,33 @@
 @font-face {
+  font-family: "Montserrat";
+  src: url("../lib/fonts/Oswald-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../lib/fonts/Oswald-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../lib/fonts/Oswald-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../lib/fonts/Oswald-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+@font-face {
   font-family: 'icomoon';
   src:  url('../lib/fonts/icomoon.eot?1ce3hd');
   src:  url('../lib/fonts/icomoon.eot?1ce3hd#iefix') format('embedded-opentype'),
