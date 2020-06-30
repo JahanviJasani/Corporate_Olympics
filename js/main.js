@@ -2,6 +2,7 @@ jQuery(document).ready(function ($) {
 
   $('.loader').fadeOut();
   $('#preloader').delay(350).fadeOut('slow');
+  $('form')[0].reset();
   var $win = $(window);
   var winH = $win.height();
 
