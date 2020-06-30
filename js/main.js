@@ -216,6 +216,7 @@ jQuery(document).ready(function ($) {
   $(".gallery_carousel").owlCarousel({
     autoplay: true,
     autoplayHoverPause: true,
+    lazyLoad: true,
     loop: true,
     dots: false,
     responsiveClass: true,
@@ -251,6 +252,7 @@ jQuery(document).ready(function ($) {
   $(".article_carousel").owlCarousel({
     autoplay: true,
     autoplayHoverPause: true,
+    lazyload: true,
     loop: true,
     dots: false,
     responsiveClass: true,
