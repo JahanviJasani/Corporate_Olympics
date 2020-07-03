@@ -1201,7 +1201,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   transition: transform 0.2s ease 0s;
   -webkit-transform: scale3d(1, 1, 1);
   transform: scale3d(1, 1, 1);
-  height: 180px;
 }
 
 #prev_ed .gallery_thumb:hover img {
