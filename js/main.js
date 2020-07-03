@@ -1,7 +1,7 @@
 jQuery(document).ready(function ($) {
 
   $('.loader').fadeOut();
-  $('#preloader').delay(350).fadeOut('slow');
+  $('#preloader').delay(2500).fadeOut('slow');
   $('form')[0].reset();
   var $win = $(window);
   var winH = $win.height();
@@ -252,7 +252,6 @@ jQuery(document).ready(function ($) {
   $(".article_carousel").owlCarousel({
     autoplay: true,
     autoplayHoverPause: true,
-    lazyload: true,
     loop: true,
     dots: false,
     responsiveClass: true,
