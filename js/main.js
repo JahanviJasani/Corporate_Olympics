@@ -336,8 +336,8 @@ jQuery(document).ready(function ($) {
           $("#contact_error").css('display','block');
         })
         .always(function() {
-          $('#contact_loader').css('display','flex');
-          $('#contact_loader .loader').css('display','block');
+          $('#contact_loader').css('display','none');
+          $('#contact_loader .loader').css('display','none');
           form[0].reset();
         });
         jqxhr.always(function() {
