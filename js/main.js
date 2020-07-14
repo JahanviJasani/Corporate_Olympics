@@ -323,7 +323,8 @@ jQuery(document).ready(function ($) {
         });
       }
       form.addClass('was-validated');
-    }else{
+    } else {
+      form.removeClass('was-validated');
       $('#contact_loader').css('display','flex');
       $('#contact_loader .loader').css('display','block');
       var jqxhr = $.post( "http://corporateolympics.sportsmaidan.com/api/send_mail/",{ name: form[0][0].value, email: form[0][1].value, company: form[0][2].value, message:  form[0][3].value} )
