@@ -842,7 +842,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 12px;
 }
 
-
 @media only screen and (min-width: 601px) {
   .event .details_box, .fee .details_box {
     flex: 1 0 22%;
